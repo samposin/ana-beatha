@@ -594,8 +594,17 @@ input.error {
 /*===========================================================================================ACCOUNT CSS CLOSE	*/
 /*===========================================================================================POPULAR CATEGORIES CSS START	*/
 
+.popular-categories-scroll {
+  max-height: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
 .row-search {
-  padding-bottom: 22px;
+  padding: 22px;
+  min-height: 51px;
+  background-color: #fff;
+  width: 100%;
+  margin-left: 0px;
 }
 .icon-search {
   border: none;

@@ -11,17 +11,18 @@ const PopularCategories = () => {
   };
   return (
     <div className="wrapper">
-      <article>
-        <div className="row row-search">
-          <div className="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-10">
-            <input type="text" title="" placeholder="Search experiences" className="icon-search" />
-          </div>
-          <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-2">
-            <div className="icon-filter">
-              <a href="#" title="" />
-            </div>
+      <div className="row row-search">
+        <div className="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-10">
+          <input type="text" title="" placeholder="Search experiences" className="icon-search" />
+        </div>
+        <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-2">
+          <div className="icon-filter">
+            <a href="#" title="" />
           </div>
         </div>
+      </div>
+
+      <article className="popular-categories-scroll">
         <div className="row-rec-exp">
           <h2>Recent Experiences</h2>
           <div className="row">
